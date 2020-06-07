@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		859E73522461AD0B00E0C996 /* OPPWAMobile-Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 859E734F2461AD0B00E0C996 /* OPPWAMobile-Resources.bundle */; };
+		859E73532461AD0B00E0C996 /* OPPWAMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E73502461AD0B00E0C996 /* OPPWAMobile.framework */; };
+		F459766A1F78F8D100787034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45976691F78F8D100787034 /* AppDelegate.swift */; };
+		F459766C1F78F8D100787034 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459766B1F78F8D100787034 /* HomeViewController.swift */; };
+		F459766F1F78F8D100787034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F459766D1F78F8D100787034 /* Main.storyboard */; };
+		F45976711F78F8D100787034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45976701F78F8D100787034 /* Assets.xcassets */; };
+		F45976741F78F8D100787034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45976721F78F8D100787034 /* LaunchScreen.storyboard */; };
+		F45D4B061F7BDD2D007493CB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45D4B051F7BDD2D007493CB /* Utils.swift */; };
+		F485C3141F790A1A00C7D7A7 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485C3131F790A1A00C7D7A7 /* Config.swift */; };
+		F485C3171F79123B00C7D7A7 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485C3161F79123B00C7D7A7 /* CheckoutViewController.swift */; };
+		F485C3191F79124800C7D7A7 /* PaymentButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485C3181F79124800C7D7A7 /* PaymentButtonViewController.swift */; };
+		F485C31B1F79125800C7D7A7 /* CustomUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485C31A1F79125800C7D7A7 /* CustomUIViewController.swift */; };
+		F485C31D1F7912BB00C7D7A7 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485C31C1F7912BB00C7D7A7 /* Request.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F41B73541F78FCED0086D155 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		859E734F2461AD0B00E0C996 /* OPPWAMobile-Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "OPPWAMobile-Resources.bundle"; sourceTree = "<group>"; };
+		859E73502461AD0B00E0C996 /* OPPWAMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OPPWAMobile.framework; sourceTree = "<group>"; };
+		F45976661F78F8D100787034 /* MSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45976691F78F8D100787034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F459766B1F78F8D100787034 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F459766E1F78F8D100787034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45976701F78F8D100787034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45976731F78F8D100787034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45976751F78F8D100787034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45D4B051F7BDD2D007493CB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F485C3131F790A1A00C7D7A7 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F485C3161F79123B00C7D7A7 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		F485C3181F79124800C7D7A7 /* PaymentButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButtonViewController.swift; sourceTree = "<group>"; };
+		F485C31A1F79125800C7D7A7 /* CustomUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIViewController.swift; sourceTree = "<group>"; };
+		F485C31C1F7912BB00C7D7A7 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		F4A243601F78FC6C00A1614E /* MSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45976631F78F8D100787034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859E73532461AD0B00E0C996 /* OPPWAMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F459765D1F78F8D100787034 = {
+			isa = PBXGroup;
+			children = (
+				F45976681F78F8D100787034 /* MSDKDemo */,
+				F4A2435F1F78FABD00A1614E /* Frameworks */,
+				F45976671F78F8D100787034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45976671F78F8D100787034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45976661F78F8D100787034 /* MSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45976681F78F8D100787034 /* MSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F45976691F78F8D100787034 /* AppDelegate.swift */,
+				F485C3131F790A1A00C7D7A7 /* Config.swift */,
+				F485C31C1F7912BB00C7D7A7 /* Request.swift */,
+				F45D4B051F7BDD2D007493CB /* Utils.swift */,
+				F485C3151F7911EF00C7D7A7 /* Controller */,
+				F459766D1F78F8D100787034 /* Main.storyboard */,
+				F45976721F78F8D100787034 /* LaunchScreen.storyboard */,
+				F45976701F78F8D100787034 /* Assets.xcassets */,
+				F45976751F78F8D100787034 /* Info.plist */,
+				F4A243601F78FC6C00A1614E /* MSDKDemo-Bridging-Header.h */,
+			);
+			path = MSDKDemo;
+			sourceTree = "<group>";
+		};
+		F485C3151F7911EF00C7D7A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F459766B1F78F8D100787034 /* HomeViewController.swift */,
+				F485C3161F79123B00C7D7A7 /* CheckoutViewController.swift */,
+				F485C3181F79124800C7D7A7 /* PaymentButtonViewController.swift */,
+				F485C31A1F79125800C7D7A7 /* CustomUIViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4A2435F1F78FABD00A1614E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				859E734F2461AD0B00E0C996 /* OPPWAMobile-Resources.bundle */,
+				859E73502461AD0B00E0C996 /* OPPWAMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45976651F78F8D100787034 /* MSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45976781F78F8D100787034 /* Build configuration list for PBXNativeTarget "MSDKDemo" */;
+			buildPhases = (
+				F45976621F78F8D100787034 /* Sources */,
+				F45976631F78F8D100787034 /* Frameworks */,
+				F45976641F78F8D100787034 /* Resources */,
+				F41B73541F78FCED0086D155 /* Embed Frameworks */,
+				F48E960B1F8D0DBA00BC128C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSDKDemo;
+			productName = MSDKDemo;
+			productReference = F45976661F78F8D100787034 /* MSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F459765E1F78F8D100787034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ACI;
+				TargetAttributes = {
+					F45976651F78F8D100787034 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = H4G2PA6K4T;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F45976611F78F8D100787034 /* Build configuration list for PBXProject "MSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F459765D1F78F8D100787034;
+			productRefGroup = F45976671F78F8D100787034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45976651F78F8D100787034 /* MSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45976641F78F8D100787034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45976741F78F8D100787034 /* LaunchScreen.storyboard in Resources */,
+				F45976711F78F8D100787034 /* Assets.xcassets in Resources */,
+				F459766F1F78F8D100787034 /* Main.storyboard in Resources */,
+				859E73522461AD0B00E0C996 /* OPPWAMobile-Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F48E960B1F8D0DBA00BC128C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\nfind \"$APP_PATH\" -name 'OPPWAMobile*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45976621F78F8D100787034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F485C3171F79123B00C7D7A7 /* CheckoutViewController.swift in Sources */,
+				F459766C1F78F8D100787034 /* HomeViewController.swift in Sources */,
+				F485C3191F79124800C7D7A7 /* PaymentButtonViewController.swift in Sources */,
+				F459766A1F78F8D100787034 /* AppDelegate.swift in Sources */,
+				F485C31D1F7912BB00C7D7A7 /* Request.swift in Sources */,
+				F485C3141F790A1A00C7D7A7 /* Config.swift in Sources */,
+				F485C31B1F79125800C7D7A7 /* CustomUIViewController.swift in Sources */,
+				F45D4B061F7BDD2D007493CB /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F459766D1F78F8D100787034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F459766E1F78F8D100787034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45976721F78F8D100787034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45976731F78F8D100787034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45976761F78F8D100787034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45976771F78F8D100787034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45976791F78F8D100787034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4G2PA6K4T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aciworldwide.MSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kishansuthar/Downloads/CM Project/Aqar slicing/Hyperpay data/HyperPay/Hyperpay SDK v2.47/iOS_OPPWAMobile_2.47.0/Demo/MSDKDemo/MSDKDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		F459767A1F78F8D100787034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H4G2PA6K4T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aciworldwide.MSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kishansuthar/Downloads/CM Project/Aqar slicing/Hyperpay data/HyperPay/Hyperpay SDK v2.47/iOS_OPPWAMobile_2.47.0/Demo/MSDKDemo/MSDKDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45976611F78F8D100787034 /* Build configuration list for PBXProject "MSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45976761F78F8D100787034 /* Debug */,
+				F45976771F78F8D100787034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45976781F78F8D100787034 /* Build configuration list for PBXNativeTarget "MSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45976791F78F8D100787034 /* Debug */,
+				F459767A1F78F8D100787034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F459765E1F78F8D100787034 /* Project object */;
+}
